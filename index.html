@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Головна - Платформа НМТ 2026</title>
+    <style>
+        /* Простий стиль для видимості фокусу (високий рівень) */
+        :focus { outline: 3px solid orange; outline-offset: 4px; }
+        .skip-link { position: absolute; top: -40px; left: 0; background: #000; color: #fff; padding: 8px; z-index: 100; }
+        .skip-link:focus { top: 0; }
+        nav [aria-current="page"] { font-weight: bold; text-decoration: none; color: black; }
+    </style>
+</head>
+<body>
+    <a href="#main" class="skip-link">Перейти до основного змісту</a>
+
+    <header>
+        <h1>Платформа підготовки до НМТ</h1>
+        <p>Твій шлях до 200 балів починається тут.</p>
+        <nav aria-label="Головна навігація">
+            <ul>
+                <li><a href="index.html" aria-current="page">Головна</a></li>
+                <li><a href="topic.html">Математика (Тема)</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section>
+            <h2>Ласкаво просимо!</h2>
+            <p>Цей ресурс допоможе вам підготуватися до національного мультипредметного тесту 2026 року.</p>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Навігація в підвалі">
+            <ul>
+                <li><a href="contacts.html">Зворотний зв'язок</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 Платформа НМТ. Усі права захищені.</p>
+    </footer>
+</body>
+</html>
